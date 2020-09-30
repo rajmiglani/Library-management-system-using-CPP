@@ -199,6 +199,7 @@ void MENU :: main_menu(void)
 	while (1)
 	{
 		clrscr() ;
+		//gotoxy Function helps to move the terminal printing cursor to the desired location. (int x,int y) are the cordinates
 		gotoxy(29,6) ;
 		cout <<"B O O K       L I B R A R Y" ;
 		gotoxy(29,7) ;
