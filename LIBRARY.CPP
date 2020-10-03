@@ -199,11 +199,11 @@ void MENU :: main_menu(void)
 	while (1)
 	{
 		clrscr() ;
-		gotoxy(29,6) ;
+		gotoxy(29,6) ;//this will jummp to co-ordinates (29,6)
 		cout <<"B O O K       L I B R A R Y" ;
-		gotoxy(29,7) ;
+		gotoxy(29,7) ;////this will jummp to co-ordinates (29,7)
 		cout <<"---------------" ;
-		gotoxy(30,10) ;
+		gotoxy(30,10) ;//this will jummp to co-ordinates (30,10)
 		cout <<"1. INTRODUCTION" ;
 		gotoxy(30,11) ;
 		cout <<"2. ADD  BOOK" ;
